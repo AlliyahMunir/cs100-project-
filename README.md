@@ -1,5 +1,5 @@
 # WOW Repairs by Auto Squad
-Authors: [Alliyah Munir](https://github.com/AlliyahMunir)  [Daniel Cazares](https://github.com/villvin)  [Michael Vong](https://github.com/michaelvong)
+Authors: [Alliyah Munir](https://github.com/AlliyahMunir),  [Daniel Cazares](https://github.com/villvin), &  [Michael Vong](https://github.com/michaelvong)
  
  
  > ## Expectations
