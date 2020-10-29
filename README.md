@@ -1,12 +1,11 @@
  > As you complete each section you **must** remove the prompt text. Every *turnin* of this project includes points for formatting of this README so keep it clean and keep it up to date. 
  > Prompt text is any lines beginning with "\<"
  > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
-# \<Project title\>
+# \<WOW Repairs by Auto Squad\>
  > Your author list below should include links to all members GitHub and should begin with a "\<" (remove existing author).
  
- > Authors: \<[Jeffrey McDaniel](https://github.com/jmcda001)\>
+ > Authors: \<[Alliyah Munir](https://github.com/AlliyahMunir)\>  \<[Daniel Cazares](https://github.com/villvin)\>  \<[Michael Vong](https://github.com/michaelvong)\>
  
- > You will be forming a group of **THREE** students and work on an interesting project that you will propose yourself (in this `README.md` document). You can pick any project that you'd like, but it needs ot implement three design patterns. Each of the members in a group is expected to work on at least one design pattern and its test cases. You can, of course, help each other, but it needs to be clear who will be responsible for which pattern and for which general project features.
  
  > ## Expectations
  > * Incorporate **three** distinct design patterns, *two* of the design patterns need to be taught in this course:
@@ -17,14 +16,24 @@
  > * Each member of the group **must** be committing code regularly and make sure their code is correctly attributed to them. We will be checking attributions to determine if there was equal contribution to the project.
 
 ## Project Description
- > Your project description should summarize the project you are proposing. Be sure to include
- > * Why is it important or interesting to you?
- > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
- >   * [toolname](link) - Short description
- > * What will be the input/output of your project?
- > * What are the three design patterns you will be using. For each design pattern you must:
- >   * Explain in 3 - 5 sentences why you picked this pattern and what feature you will implement with it
- > * This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
+ > WOW Repairs is an auto repair shop designed to provide quick and effective service. With AutoSquad on the job, helping customers until they are satisfied will not be a problem! 
+
+We believe that creating a repair shop program with a variety of services that can be addressed through an input/output interface can make it easier for customers to receive assistance. Furthermore, incorporating multiple design patterns to create a repair shop seems like an intriguing and fun process for the AutoSquad! 
+
+The languages/tools/technology we plan on using include the language of C++ programming as the chosen language and github as a tool, with the technology being the use of a terminal such as Putty. 
+
+The input/output of our project will begin with a menu board of pricing, services, and store hours, followed by IO Interface with customers allowing them to input which service(s) they would like to receive. Afterwards, the customer will be asked about car details, given a wait time and total cost overview. Once the AutoSquad has completed all repairs, the customer will be able to pay, and receive a receipt, in person. 
+
+The three design patterns our team will be using is the Decorator, Strategy, and Visitor patterns.
+
+Michael
+My design pattern will be the Visitor pattern. I plan to use this pattern to act as an user interface for the customers. I believe this pattern will be helpful since there will be a customer visiting for a variety of reasons, depending on the reason I can output respectively to the customer. 
+
+Daniel
+I have chosen to do the Strategy Design Pattern. With this pattern, I will implement different ways to calculate the price of the services being done to a customer’s vehicle. It will calculate the cost of different repairs. For example, repairing a windshield will cost different than repairing a front or rear bumper. It will use a strategy to calculate pricing for each repair or combination of repairs. At the end it will give the customer the cost of each repair and the total price. 
+
+Alliyah:
+The design pattern I chose is the Decorator Design Pattern. I chose this pattern because it allows one to input additional functionalities to an object dynamically, through a smooth process. I plan on using the Decorator pattern to create a menu board for the Repair Shop that will our company’s services and prices, followed by I/O interface to begin assisting. 
 
  > ## Phase II
  > In addition to completing the "Class Diagram" section below, you will need to 
