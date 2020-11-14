@@ -1,5 +1,5 @@
 # WOW Repairs by Auto Squad
-Authors: [Alliyah Munir](https://github.com/AlliyahMunir),  [Daniel Cazares](https://github.com/villvin), &  [Michael Vong](https://github.com/michaelvong)
+Authors: [Alliyah Munir](https://github.com/AlliyahMunir) &  [Michael Vong](https://github.com/michaelvong)
  
  
  > ## Expectations
@@ -13,12 +13,16 @@ Authors: [Alliyah Munir](https://github.com/AlliyahMunir),  [Daniel Cazares](htt
 ## Project Description
 WOW Repairs is an auto repair shop designed to provide quick and effective service. With AutoSquad on the job, helping customers until they are satisfied will not be a problem! 
 
+##Our Purpose
 We believe that creating a repair shop program with a variety of services that can be addressed through an input/output interface can make it easier for customers to receive assistance. Furthermore, incorporating multiple design patterns to create a repair shop seems like an intriguing and fun process for the AutoSquad! 
 
+##Implemented Techonology
 The languages/tools/technology we plan on using include the language of C++ programming as the chosen language and github as a tool, with the technology being the use of a terminal such as Putty. 
 
+##Project Outcome
 The input/output of our project will begin with a menu board of pricing, services, and store hours, followed by IO Interface with customers allowing them to input which service(s) they would like to receive. Afterwards, the customer will be asked about car details, given a wait time and total cost overview. Once the AutoSquad has completed all repairs, the customer will be able to pay, and receive a receipt, in person. 
 
+##Design Pattern Choices
 The three design patterns our team will be using is the Decorator, Strategy, and Visitor patterns.
 
 Michael: My design pattern will be the Visitor pattern. I plan to use this pattern to act as an user interface for the customers. I believe this pattern will be helpful since there will be a customer visiting for a variety of reasons, depending on the reason I can output respectively to the customer. 
