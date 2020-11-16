@@ -31,19 +31,10 @@ Daniel: I have chosen to do the Strategy Design Pattern. With this pattern, I wi
 
 Alliyah: The design pattern I chose is the Decorator Design Pattern. I chose this pattern because it allows one to input additional functionalities to an object dynamically, through a smooth process. I plan on using the Decorator pattern to create a menu board for the Repair Shop that will our company’s services and prices, followed by I/O interface to begin assisting. 
 
- > ## Phase II
- > In addition to completing the "Class Diagram" section below, you will need to 
- > * Set up your GitHub project board as a Kanban board for the project. It should have columns that map roughly to 
- >   * Backlog, TODO, In progress, In testing, Done
- >   * You can change these or add more if you'd like, but we should be able to identify at least these.
- > * There is no requirement for automation in the project board but feel free to explore those options.
- > * Create an "Epic" (note) for each feature and each design pattern and assign them to the appropriate team member. Place these in the `Backlog` column
- > * Complete your first *sprint planning* meeting to plan out the next 7 days of work.
- >   * Create smaller development tasks as issues and assign them to team members. Place these in the `Backlog` column.
- >   * These cards should represent roughly 7 days worth of development time for your team, taking you until your first meeting with the TA
+## Phase II
 ## Class Diagram
-file:///C:/Users/Alliyah%20Munir/Downloads/CS100%20Proposal%202%20-%20Google%20Docs.pdf
- 
+
+ file:///C:/Users/Alliyah%20Munir/Downloads/CS100%20Proposal%202%20-%20Google%20Docs.pdf 
  > ## Phase III
  > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
  > * Before the meeting you should perform a sprint plan like you did in Phase II
