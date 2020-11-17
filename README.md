@@ -14,13 +14,11 @@ The languages/tools/technology we plan on using include the language of C++ prog
 The input/output of our project will begin with a menu board of pricing, services, and store hours, followed by IO Interface with customers allowing them to input which service(s) they would like to receive. Afterwards, the customer will be asked about car details, given a wait time and total cost overview. Once the AutoSquad has completed all repairs, the customer will be able to pay, and receive a receipt, in person. 
 
 ## Design Pattern Choices
-The three design patterns our team will be using is the Decorator, Strategy, and Visitor patterns.
+The three design patterns our team will be using is the Composite and Strategy patterns.
 
-Michael: My design pattern will be the Visitor pattern. I plan to use this pattern to act as an user interface for the customers. I believe this pattern will be helpful since there will be a customer visiting for a variety of reasons, depending on the reason I can output respectively to the customer. 
+Michael: My design pattern will be the Composite pattern. I plan to create a Main Menu that will be executed as soon as Customers enter the shop. Using the Main Menu, customers can select a category, depending on their needs. These categories include Checkout, Reading/Writing Reviews, Current Deals, etc.. With this pattern, users can easily access the category they desire in efficient time. 
 
-Daniel: I have chosen to do the Strategy Design Pattern. With this pattern, I will implement different ways to calculate the price of the services being done to a customer’s vehicle. It will calculate the cost of different repairs. For example, repairing a windshield will cost different than repairing a front or rear bumper. It will use a strategy to calculate pricing for each repair or combination of repairs. At the end it will give the customer the cost of each repair and the total price. 
-
-Alliyah: The design pattern I chose is the Decorator Design Pattern. I chose this pattern because it allows one to input additional functionalities to an object dynamically, through a smooth process. I plan on using the Decorator pattern to create a menu board for the Repair Shop that will our company’s services and prices, followed by I/O interface to begin assisting. 
+Alliyah: The design pattern I chose is the Strategy Pattern. I chose this pattern because it allows one to encapusulate a family of algorithms, allowing the developer to place each in the appropriate StrategyBehavior. This way, when implementing user interface, customers are able to see view our products along with the implented Stategy Behaviors such as quantity, rating, etc.. I will use the Strategy Pattern to create a list of Products that contain various categories, allowing a user to view the product, price, rating, and quantity simultaneously.  
 
 ## Class Diagram
 ![Screenshot (825)](https://user-images.githubusercontent.com/52710942/99324567-6f3d7180-2829-11eb-881c-5b2e1c671633.png)
