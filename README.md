@@ -14,7 +14,7 @@ The languages/tools/technology we plan on using include the language of C++ prog
 The input/output of our project will begin with a menu board of pricing, services, and store hours, followed by IO Interface with customers allowing them to input which service(s) they would like to receive. Afterwards, the customer will be asked about car details, given a wait time and total cost overview. Once the AutoSquad has completed all repairs, the customer will be able to pay, and receive a receipt, in person. 
 
 ## Design Pattern Choices
-The three design patterns our team will be using is the Composite and Strategy patterns.
+The two design patterns our team will be using is the Composite and Strategy patterns.
 
 Michael: My design pattern will be the Composite pattern. I plan to create a Main Menu that will be executed as soon as Customers enter the shop. Using the Main Menu, customers can select a category, depending on their needs. These categories include Checkout, Reading/Writing Reviews, Current Deals, etc.. With this pattern, users can easily access the category they desire in efficient time. 
 
