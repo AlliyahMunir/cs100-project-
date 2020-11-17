@@ -22,8 +22,11 @@ Daniel: I have chosen to do the Strategy Design Pattern. With this pattern, I wi
 
 Alliyah: The design pattern I chose is the Decorator Design Pattern. I chose this pattern because it allows one to input additional functionalities to an object dynamically, through a smooth process. I plan on using the Decorator pattern to create a menu board for the Repair Shop that will our company’s services and prices, followed by I/O interface to begin assisting. 
 
-## Phase II
 ## Class Diagram
+![Screenshot (825)](https://user-images.githubusercontent.com/52710942/99324567-6f3d7180-2829-11eb-881c-5b2e1c671633.png)
+
+![Screenshot (826)](https://user-images.githubusercontent.com/52710942/99324763-ccd1be00-2829-11eb-9024-7fe7620a4d74.png)
+
 [View Diagram and Description Here](https://docs.google.com/document/d/1AxLyhsg0K1V0hIXzQ6zJ8qQ6KcXIuoaiAAHnwAMx5_4/edit?usp=sharing)
 
  > ## Phase III
