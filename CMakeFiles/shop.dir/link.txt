@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-6/root/usr/bin/c++    -rdynamic CMakeFiles/shop.dir/CReviewmain.cpp.o CMakeFiles/shop.dir/Shop.cpp.o CMakeFiles/shop.dir/ReviewStrategy.cpp.o  -o shop 
