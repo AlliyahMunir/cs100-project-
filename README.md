@@ -48,8 +48,8 @@ Alliyah: The design pattern I chose is the Strategy Pattern. I chose this patter
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
  ## Resources
- > https://www.oreilly.com/library/view/head-first-design/0596007124/ch01.html 
- > https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc 
- > https://www.youtube.com/watch?v=-NCgRD9-C6o&t=63s
- > https://www.youtube.com/redirect?redir_token=QUFFLUhqbDJiRGRScUtFMGo5a1hJWW81SjYyLVdTUlJtUXxBQ3Jtc0tsd1VKR0ZsRlhWb3J2ZGJjYkxJRnNZSm5mNWR4eTNNcVkwQ01xbW5HWXhOOGk1WHV3MVpFbkdqcm1uOEEybVpwYVVGbXZSWEd3MFZsbjl3WVlfcUwzVVNaVldsalg4OV9yenRPSkFSZVRXX1RUU01Mbw%3D%3D&event=video_description&v=v9ejT8FO-7I&q=http%3A%2F%2Famazon.christopherokhravi.com%3Fid%3D0596007124
+ > * https://www.oreilly.com/library/view/head-first-design/0596007124/ch01.html 
+ > * https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc 
+ > * https://www.youtube.com/watch?v=-NCgRD9-C6o&t=63s
+ > * https://www.youtube.com/redirect?redir_token=QUFFLUhqbDJiRGRScUtFMGo5a1hJWW81SjYyLVdTUlJtUXxBQ3Jtc0tsd1VKR0ZsRlhWb3J2ZGJjYkxJRnNZSm5mNWR4eTNNcVkwQ01xbW5HWXhOOGk1WHV3MVpFbkdqcm1uOEEybVpwYVVGbXZSWEd3MFZsbjl3WVlfcUwzVVNaVldsalg4OV9yenRPSkFSZVRXX1RUU01Mbw%3D%3D&event=video_description&v=v9ejT8FO-7I&q=http%3A%2F%2Famazon.christopherokhravi.com%3Fid%3D0596007124
  
