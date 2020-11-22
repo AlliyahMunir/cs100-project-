@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/CReviewmain.cpp
+iostream
+-
+string
+-
+Shop.hpp
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/Shop.hpp
+
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/ReviewStrategy.cpp
+iostream
+-
+string
+-
+ReviewStrategy.hpp
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/ReviewStrategy.hpp
+
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/ReviewStrategy.hpp
+Shop.hpp
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/Shop.hpp
+
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/Shop.cpp
+Shop.hpp
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/Shop.hpp
+
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/Shop.hpp
+iostream
+-
+string
+-
+ReviewStrategy.hpp
+/home/csmajs/amuni012/final-project-amuni012-dcaza005-mvong006/ReviewStrategy.hpp
+
