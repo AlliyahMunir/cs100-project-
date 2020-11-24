@@ -1,1 +1,0 @@
-/opt/rh/devtoolset-6/root/usr/bin/c++    -rdynamic CMakeFiles/logo.dir/logo.cpp.o  -o logo 
