@@ -28,3 +28,12 @@ double Order::cost(){
     }
     return totalcost;
 }
+
+void Order::accept(Visitor* myvisitor){
+    double orderTotal=0;
+    for (auto item: this->contents){
+        orderTotal += item->cost();
+        myvisitor->storeItems(item);
+    }
+    myvisitor->visit_order(orderTotal);
+}
