@@ -1,6 +1,7 @@
 #include "discount.hpp"
 #include <iostream>
 #include <cstdlib>
+#include <iomanip>  
 void Discount::accept(Visitor* myvisitor, double userNum){
     double order_total = myvisitor->getTotal();
     this->discountGame();
@@ -8,12 +9,14 @@ void Discount::accept(Visitor* myvisitor, double userNum){
         myvisitor->setDiscount(.10);
     }
 
+    cout << fixed << setprecision(0);
     if (userNum == this->randomNum){
-        myvisitor->setDiscount(this->discountPercent + .20);
-        cout << "Congrats! We're adding a 20% discount to your active discounts!" << endl;
+        myvisitor->setDiscount(myvisitor->getRawDiscount() + .20);
+        cout << "Congrats! The lucky number was " << this->randomNum << "! We're adding a 20% discount to your active discounts!" << endl;
     }
     else{
         cout << "Aw! Unfortunately the number was " << this->randomNum << endl;
+        cout << "Continuing to payment..." << endl;
     }
 }
 
