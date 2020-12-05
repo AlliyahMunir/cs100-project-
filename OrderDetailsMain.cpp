@@ -93,13 +93,21 @@ int main()
     }
     //display current order
     cout << "\nCurrent Items" << endl;
+    cout << "Product\t\t\t\tPrice" << endl;
     visitor->displayItems(); 
-
     //allow user to apply discounts or checkout
     cout << "\nPress 1 to apply discounts or press 2 to continue to checkout." << endl;
     int discountNum;
-    cin >> discountNum;
-
+    
+    //input validation
+    while(discountNum != 1 && discountNum != 2){
+        cin >> discountNum;
+        if (discountNum != 1 && discountNum != 2){
+            cout << "Invalid input" << endl;
+            cin.clear();
+            cin.ignore(100000, '\n');
+        }
+    }
     //This loop gets users input for discount. user guesses 1-5 for lucky discount
     //if user enters 2 then immediately checkout
     bool flag2 = true;
@@ -113,9 +121,6 @@ int main()
         }
         else if(discountNum == 2){
             flag2 = false;
-        }
-        else{
-            cout << "Invalid Input." << endl;
         }
     }
 
@@ -156,6 +161,11 @@ int main()
         else if (userCheckNum == 3){
             cout << "Thank you for coming in! Please come again!" << endl;
             flag3 = false;
+        }
+        else{
+            cout << "Invalid input." << endl;   
+            cin.clear();
+            cin.ignore(100000, '\n');
         }
     }
 
