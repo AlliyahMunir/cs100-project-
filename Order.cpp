@@ -19,6 +19,7 @@ int Order::count(){
 
 void Order::add(Base* product){
     this->contents.push_back(product);
+    cout << "Product has been added." << endl;
 }
 
 double Order::cost(){
