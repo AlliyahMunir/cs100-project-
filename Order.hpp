@@ -4,6 +4,7 @@
 #include <vector>
 #include "Base.hpp"
 #include <iostream>
+#include "visitor.hpp"
 
 using namespace std;
 //composite part of composite pattern
@@ -19,6 +20,7 @@ public:
     virtual int count();
     void add(Base*);
     virtual double cost();
+    void accept(Visitor*);
 };
 
 

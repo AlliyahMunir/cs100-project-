@@ -19,6 +19,7 @@ int Order::count(){
 
 void Order::add(Base* product){
     this->contents.push_back(product);
+    cout << "Product has been added." << endl;
 }
 
 double Order::cost(){
@@ -27,4 +28,13 @@ double Order::cost(){
         totalcost += item->cost();
     }
     return totalcost;
+}
+
+void Order::accept(Visitor* myvisitor){
+    double orderTotal=0;
+    for (auto item: this->contents){
+        orderTotal += item->cost();
+        myvisitor->storeItems(item);
+    }
+    myvisitor->visit_order(orderTotal);
 }

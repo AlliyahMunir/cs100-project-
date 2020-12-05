@@ -21,6 +21,8 @@ ADD_EXECUTABLE(orderdetails
 	Order.cpp
 	Items.cpp
 	OrderDetailsMain.cpp
+	visitor.cpp
+	discount.cpp
 )
 TARGET_LINK_LIBRARIES(test gtest)
 TARGET_COMPILE_DEFINITIONS(test PRIVATE gtest_disable_pthreads=ON)
