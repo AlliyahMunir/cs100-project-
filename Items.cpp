@@ -6,9 +6,12 @@ using namespace std;
 void Items::display(){
     cout << fixed;
     cout << setprecision(2);
-    if (this->name == "Oil Change" || this->name == "Flat tire Repair"){
-        cout << this->name << "\t\t" << this->price << endl;
 
+    if(this->name == "Flat Tire Repair"){
+        cout << this->name << "\t\t" << this->price << endl;
+    }
+    else if(this->name == "Tires" || this->name == "Window" || this->name == "Wrench"){
+        cout << this->name << "\t\t\t\t" << this->price << endl;
     }
     else{
         cout << this->name << "\t\t\t" << this->price << endl;
