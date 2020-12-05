@@ -1,24 +1,21 @@
 # WOW Repairs by Auto Squad
 Authors: [Alliyah Munir](https://github.com/AlliyahMunir) &  [Michael Vong](https://github.com/michaelvong)
 
-## Project Description
-WOW Repairs is an auto repair shop designed to provide quick and effective service. With AutoSquad on the job, helping customers until they are satisfied will not be a problem! 
-
+## Project Description 
+WOW Repairs is an auto shop that sells goods and services to the customers. Customers will be able to shop interactively with us.
 ## Our Purpose
-We believe that creating a repair shop program with a variety of services that can be addressed through an input/output interface can make it easier for customers to receive assistance. Furthermore, incorporating multiple design patterns to create a repair shop seems like an intriguing and fun process for the AutoSquad! 
+We believe that creating a repair shop program with a variety of services that can be addressed through an input/output interface can make it easier for customers to receive assistance. Furthermore, incorporating multiple design patterns to create a shop seems like an intriguing and fun process for the AutoSquad! 
 
 ## Implemented Techonology
 The languages/tools/technology we plan on using include the language of C++ programming as the chosen language and github as a tool, with the technology being the use of a terminal such as Putty. 
 
 ## Project Outcome
-The input/output of our project will begin with a menu board of pricing, services, and store hours, followed by IO Interface with customers allowing them to input which service(s) they would like to receive. Afterwards, the customer will be asked about car details, given a wait time and total cost overview. Once the AutoSquad has completed all repairs, the customer will be able to pay, and receive a receipt, in person. 
+The input/output of our project will begin with a menu board of pricing, services, and goods, followed by IO Interface with customers allowing them to input which service(s) they would like to receive. Afterwards, the customer will be shown their order and total cost overview. Once the AutoSquad has completed all repairs, the customer will be able to pay, and receive a receipt. Customers may also steal or leave at checkout if they'd like. 
 
 ## Design Pattern Choices
-The two design patterns our team will be using is the Composite and Strategy patterns.
+The two design patterns that will be implemented in this project will be the Visitor Pattern and Composite Pattern.
 
-Michael: My design pattern will be the Composite pattern. I plan to create a Main Menu that will be executed as soon as Customers enter the shop. Using the Main Menu, customers can select a category, depending on their needs. These categories include Checkout, Reading/Writing Reviews, Current Deals, etc.. With this pattern, users can easily access the category they desire in efficient time. 
-
-Alliyah: The design pattern I chose is the Strategy Pattern. I chose this pattern because it allows one to encapusulate a family of algorithms, allowing the developer to place each in the appropriate StrategyBehavior. This way, when implementing user interface, customers are able to see view our products along with the implented Stategy Behaviors such as quantity, rating, etc.. I will use the Strategy Pattern to create a list of Products that contain various categories, allowing a user to view the product, price, rating, and quantity simultaneously.  
+Michael: My design pattern will be the Composite pattern and Visitor Pattern. Using the visitor pattern, I will use the visitor to replicate a customer. The visitor will hold information about the order and will be able to display a menu. The visitor will also be able to visit other classes to fill the information about the customer's order. On the other hand, I will utilize the Composite Pattern to create the order itself. Similar to our expression tree lab, rather than operands and operators, the pattern will hold items and orders.
 
 ## Class Diagram
 ![Screenshot (825)](https://user-images.githubusercontent.com/52710942/99324567-6f3d7180-2829-11eb-881c-5b2e1c671633.png)
