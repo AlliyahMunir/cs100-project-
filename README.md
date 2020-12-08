@@ -58,10 +58,10 @@ Michael: My design pattern will be the Composite pattern and Visitor Pattern. Us
        
 ![Screenshot (832)](https://cdn.discordapp.com/attachments/655307425888469002/785786773003173918/project_output_6.JPG)
  ## Installation/Usage
-       To run the program, I needed to include multiple c++ libraries. These libraries include "cstdlib", "iomanip", namespace std, "iostream" and all the header files along   with the source files include in the repository. While running the program, the program will output instructions for the user to follow making it fairly simple to follow along. All user input for the program will include the numbers 1-9 and nothing else.
+To run the program, I needed to include multiple c++ libraries. These libraries include "cstdlib", "iomanip", namespace std, "iostream" and all the header files along   with the source files include in the repository. While running the program, the program will output instructions for the user to follow making it fairly simple to follow along. All user input for the program will include the numbers 1-9 and nothing else.
  ## Testing
-        A lot of the testing was trial and error through a main source file. Making many minor changes at a time, running the program and seeing if the results match the expected results. I also created a testing file where all the unit tests were place in the file and tested.
+A lot of the testing was trial and error through a main source file. Making many minor changes at a time, running the program and seeing if the results match the expected results. I also created a testing file where all the unit tests were place in the file and tested.
  ## Resources
-        Many of the resources I used were previous labs and slides provided from the professor.
+Many of the resources I used were previous labs and slides provided from the professor.
 
  
