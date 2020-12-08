@@ -63,5 +63,5 @@ To run the program, I needed to include multiple c++ libraries. These libraries 
 A lot of the testing was trial and error through a main source file. Making many minor changes at a time, running the program and seeing if the results match the expected results. I also created a testing file where all the unit tests were place in the file and tested.
  ## Resources
 Many of the resources I used were previous labs and slides provided from the professor.
-
- 
+Google docs to create diagrams.
+Snipping tool to create screenshots.
