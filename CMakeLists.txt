@@ -14,7 +14,11 @@ ADD_EXECUTABLE(shop
 )
 
 ADD_EXECUTABLE(test
-	test.cpp
+	main_tests.cpp
+	discount.cpp
+	Order.cpp
+	Items.cpp
+	visitor.cpp
 )
 
 ADD_EXECUTABLE(orderdetails
