@@ -18,7 +18,7 @@ The two design patterns that will be implemented in this project will be the Vis
 Michael: My design pattern will be the Composite pattern and Visitor Pattern. Using the visitor pattern, I will use the visitor to replicate a customer. The visitor will hold information about the order and will be able to display a menu. The visitor will also be able to visit other classes to fill the information about the customer's order. On the other hand, I will utilize the Composite Pattern to create the order itself. Similar to our expression tree lab, rather than operands and operators, the pattern will hold items and orders.
 
 ## Class Diagram
-![Screenshot (825)]()
+![Screenshot (825)](https://cdn.discordapp.com/attachments/655307425888469002/785774483097124894/composite_pattern.JPG)
 
 ![Screenshot (826)](https://user-images.githubusercontent.com/52710942/99324763-ccd1be00-2829-11eb-9024-7fe7620a4d74.png)
 
