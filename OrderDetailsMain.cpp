@@ -27,7 +27,7 @@ int main()
     Base* seatCovers = new Items("Seat Covers", 350.00);
 
     //create visitor(customer)
-    Visitor* visitor = new Visitor();   //works
+    Visitor* visitor = new Visitor();  
 
     //creates random order number
     srand(time(0));
