@@ -20,7 +20,7 @@ Michael: My design pattern will be the Composite pattern and Visitor Pattern. Us
 ## Class Diagram
 ![Screenshot (825)](https://cdn.discordapp.com/attachments/655307425888469002/785774483097124894/composite_pattern.JPG)
 
-![Screenshot (826)](https://user-images.githubusercontent.com/52710942/99324763-ccd1be00-2829-11eb-9024-7fe7620a4d74.png)
+![Screenshot (826)](https://cdn.discordapp.com/attachments/655307425888469002/785774493770448916/visitor_pattern.JPG)
 
 [View Diagram and Description Here](https://docs.google.com/document/d/1AxLyhsg0K1V0hIXzQ6zJ8qQ6KcXIuoaiAAHnwAMx5_4/edit?usp=sharing)
 
@@ -41,12 +41,10 @@ Michael: My design pattern will be the Composite pattern and Visitor Pattern. Us
  ## Screenshots
  > Screenshots of the input/output after running your application
  ## Installation/Usage
- > Instructions on installing and running your application
+       To run the program, I needed to include multiple c++ libraries. These libraries include "cstdlib", "iomanip", namespace std, "iostream" and all the header files along   with the source files include in the repository. While running the program, the program will output instructions for the user to follow making it fairly simple to follow along. All user input for the program will include the numbers 1-9 and nothing else.
  ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+        A lot of the testing was trial and error through a main source file. Making many minor changes at a time, running the program and seeing if the results match the expected results. I also created a testing file where all the unit tests were place in the file and tested.
  ## Resources
- > * https://www.oreilly.com/library/view/head-first-design/0596007124/ch01.html 
- > * https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc 
- > * https://www.youtube.com/watch?v=-NCgRD9-C6o&t=63s
- > * https://www.youtube.com/redirect?redir_token=QUFFLUhqbDJiRGRScUtFMGo5a1hJWW81SjYyLVdTUlJtUXxBQ3Jtc0tsd1VKR0ZsRlhWb3J2ZGJjYkxJRnNZSm5mNWR4eTNNcVkwQ01xbW5HWXhOOGk1WHV3MVpFbkdqcm1uOEEybVpwYVVGbXZSWEd3MFZsbjl3WVlfcUwzVVNaVldsalg4OV9yenRPSkFSZVRXX1RUU01Mbw%3D%3D&event=video_description&v=v9ejT8FO-7I&q=http%3A%2F%2Famazon.christopherokhravi.com%3Fid%3D0596007124
+        Many of the resources I used were previous labs and slides provided from the professor.
+
  
